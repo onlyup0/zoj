@@ -1,8 +1,20 @@
-# SpringBoot 项目初始模板
+# 项目初始
 
-基于 Java SpringBoot 的项目初始模板，整合了常用框架和主流业务的示例代码。
+### 前端环境
 
-只需 1 分钟即可完成内容网站的后端！！！大家还可以在此基础上快速开发自己的项目。
+nodeJS:v18.16.0
+
+npm:9.5.1
+
+vue3、vue-cli脚手架
+
+arco-design框架
+
+### 后端环境
+
+java： 1.8
+
+springboot:2.7
 
 [toc]
 
