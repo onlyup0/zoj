@@ -14,7 +14,7 @@ arco-design框架
 
 ### 后端环境
 
-java： 1.8
+jdk： 1.8
 
 springboot:2.7
 
