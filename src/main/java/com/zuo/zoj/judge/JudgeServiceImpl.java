@@ -14,7 +14,6 @@ import com.zuo.zoj.model.dto.questionsubmit.JudgeInfo;
 import com.zuo.zoj.model.entity.Question;
 import com.zuo.zoj.model.entity.QuestionSubmit;
 import com.zuo.zoj.model.enums.QuestionSubmitStateEnum;
-import com.zuo.zoj.model.vo.QuestionSubmitVO;
 import com.zuo.zoj.service.QuestionService;
 import com.zuo.zoj.service.QuestionSubmitService;
 import org.springframework.beans.factory.annotation.Value;
