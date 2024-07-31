@@ -15,9 +15,10 @@ import java.util.stream.Collectors;
 public enum QuestionSubmitStateEnum {
 
     WAITING("待判题", 0),
-    RUNING("待判题", 1),
+    RUNING("运行中", 1),
     SUCCEED("成功",2),
-    Fail("失败",3);
+    RunFail("运行失败",3),
+    CompileFail("编译失败",4);
 
 
     private final String text;
