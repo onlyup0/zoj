@@ -53,7 +53,7 @@ public class QuestionSubmitVO implements Serializable {
     private Long questionId;
 
     /**
-     * 创建用户 id
+     * 提交用户 id
      */
     private Long userId;
 
@@ -75,6 +75,8 @@ public class QuestionSubmitVO implements Serializable {
      * 问题返回信息
      */
     private QuestionVO questionVO;
+
+    private String userName;
 
 
     public static QuestionSubmit voToObj(QuestionSubmitVO questionSubmitVO) {
@@ -102,6 +104,7 @@ public class QuestionSubmitVO implements Serializable {
         }
         QuestionSubmitVO questionSubmitVO = new QuestionSubmitVO();
         BeanUtils.copyProperties(questionSubmit, questionSubmitVO);
+        questionSubmitVO.setUserName(questionSubmitVO.getUserName());
         String judgeInfo = questionSubmit.getJudgeInfo();
         questionSubmitVO.setJudgeInfo(JSONUtil.toBean(judgeInfo,JudgeInfo.class));
         return questionSubmitVO;

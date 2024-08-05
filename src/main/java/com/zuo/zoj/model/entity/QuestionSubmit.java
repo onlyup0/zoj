@@ -58,6 +58,10 @@ public class QuestionSubmit implements Serializable {
      * 更新时间
      */
     private Date updateTime;
+    /**
+     * 用户昵称
+     */
+    private String userName;
 
     /**
      * 是否删除

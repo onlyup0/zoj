@@ -8,7 +8,6 @@ import com.zuo.zoj.constant.CommonConstant;
 import com.zuo.zoj.exception.BusinessException;
 import com.zuo.zoj.exception.ThrowUtils;
 import com.zuo.zoj.judge.JudgeService;
-import com.zuo.zoj.model.dto.question.QuestionQueryRequest;
 import com.zuo.zoj.model.dto.questionsubmit.QuestionSubmitAddRequest;
 import com.zuo.zoj.model.dto.questionsubmit.QuestionSubmitQueryRequest;
 import com.zuo.zoj.model.entity.Question;
@@ -17,8 +16,6 @@ import com.zuo.zoj.model.entity.User;
 import com.zuo.zoj.model.enums.QuestionSubmitLanguageEnum;
 import com.zuo.zoj.model.enums.QuestionSubmitStateEnum;
 import com.zuo.zoj.model.vo.QuestionSubmitVO;
-import com.zuo.zoj.model.vo.QuestionVO;
-import com.zuo.zoj.model.vo.UserVO;
 import com.zuo.zoj.service.QuestionService;
 import com.zuo.zoj.service.QuestionSubmitService;
 import com.zuo.zoj.mapper.QuestionSubmitMapper;
@@ -31,10 +28,7 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
-import javax.servlet.http.HttpServletRequest;
 import java.util.List;
-import java.util.Map;
-import java.util.Set;
 import java.util.concurrent.CompletableFuture;
 import java.util.stream.Collectors;
 
@@ -79,6 +73,7 @@ public class QuestionSubmitServiceImpl extends ServiceImpl<QuestionSubmitMapper,
         // 锁必须要包裹住事务方法
         QuestionSubmit questionSubmit = new QuestionSubmit();
         questionSubmit.setUserId(userId);
+        questionSubmit.setUserName(loginUser.getUserName());
         questionSubmit.setQuestionId(questionSubmitAddRequest.getQuestionId());
         questionSubmit.setCode(questionSubmitAddRequest.getCode());
         questionSubmit.setLanguage(language);
