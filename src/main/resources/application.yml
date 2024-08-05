@@ -43,6 +43,11 @@ spring:
     multipart:
       # 大小限制
       max-file-size: 10MB
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: zuo
+    password: 123456
 server:
   address: 0.0.0.0
   port: 8121
@@ -91,4 +96,6 @@ cos:
     region: xxx
     bucket: xxx
 codesandbox:
-  type: example
+  type: remote
+secret:
+  AUTH_SECRET: zzh
