@@ -76,7 +76,11 @@ public class QuestionSubmitVO implements Serializable {
      */
     private QuestionVO questionVO;
 
+    /**
+     * 用户昵称
+     */
     private String userName;
+
 
 
     public static QuestionSubmit voToObj(QuestionSubmitVO questionSubmitVO) {
