@@ -17,8 +17,8 @@ import org.springframework.data.elasticsearch.annotations.FieldType;
 /**
  * 帖子 ES 包装类
  *
- * @author <a href="https://github.com/lizuo">程序员鱼皮</a>
- * @from <a href="https://zuo.icu">编程导航知识星球</a>
+ * @author <a href="https://github.com/lizuo">zzh</a>
+ * 
  **/
 // todo 取消注释开启 ES（须先配置 ES）
 //@Document(indexName = "post")

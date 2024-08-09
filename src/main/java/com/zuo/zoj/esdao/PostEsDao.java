@@ -7,8 +7,8 @@ import org.springframework.data.elasticsearch.repository.ElasticsearchRepository
 /**
  * 帖子 ES 操作
  *
- * @author <a href="https://github.com/lizuo">程序员鱼皮</a>
- * @from <a href="https://zuo.icu">编程导航知识星球</a>
+ * @author <a href="https://github.com/lizuo">zzh</a>
+ * 
  */
 public interface PostEsDao extends ElasticsearchRepository<PostEsDTO, Long> {
 

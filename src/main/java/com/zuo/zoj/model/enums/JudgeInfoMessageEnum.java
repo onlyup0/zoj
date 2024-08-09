@@ -9,8 +9,8 @@ import java.util.stream.Collectors;
 /**
  * 判题消息类型枚举
  *
- * @author <a href="https://github.com/lizuo">程序员鱼皮</a>
- * @from <a href="https://zuo.icu">编程导航知识星球</a>
+ * @author <a href="https://github.com/lizuo">zzh</a>
+ * 
  */
 public enum JudgeInfoMessageEnum {
 

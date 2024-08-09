@@ -35,8 +35,8 @@ import static com.zuo.zoj.constant.UserConstant.USER_LOGIN_STATE;
 /**
  * 題目接口
  *
- * @author <a href="https://github.com/lizuo">程序员鱼皮</a>
- * @from <a href="https://zuo.icu">编程导航知识星球</a>
+ * @author <a href="https://github.com/lizuo">zzh</a>
+ * 
  */
 @RestController
 @RequestMapping("/question")

@@ -1,6 +1,6 @@
 # 数据库初始化
-# @author <a href="https://github.com/lizuo">程序员鱼皮</a>
-# @from <a href="https://zuo.icu">编程导航知识星球</a>
+# @author <a href="https://github.com/lizuo">zzh</a>
+#
 
 -- 创建库
 create database if not exists zoj;
