@@ -82,7 +82,7 @@ const userName = computed(
 
 const onLogin = () => {
   if (userName.value === "未登录") {
-    router.push({ name: "用户登录" });
+    router.push("/login");
   } else {
     console.log("User is already logged in");
   }

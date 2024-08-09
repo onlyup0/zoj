@@ -12,6 +12,9 @@
       }"
       @page-change="onPageChange"
     >
+      <template #tags="{ record }">
+        {{ record.tags }}
+      </template>
       <template #optional="{ record }">
         <a-space>
           <a-button type="primary" @click="doUpdate(record)"> 修改</a-button>
@@ -85,7 +88,7 @@ const columns = [
   // },
   {
     title: "标签",
-    dataIndex: "tags",
+    slotName: "tags",
   },
   // {
   //   title: "答案",

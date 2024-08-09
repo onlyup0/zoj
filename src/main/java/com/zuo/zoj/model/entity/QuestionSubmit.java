@@ -63,6 +63,7 @@ public class QuestionSubmit implements Serializable {
      */
     private String userName;
 
+
     /**
      * 是否删除
      */

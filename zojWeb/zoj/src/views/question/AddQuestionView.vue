@@ -1,12 +1,21 @@
 <template>
   <div id="addQuestionView">
-    <h2>创建题目</h2>
-    <a-form :model="form" label-align="left">
+    <h2 style="text-align: center; color: #22bfa7">创建题目</h2>
+    <a-form :model="form">
       <a-form-item field="title" label="标题">
-        <a-input v-model="form.title" placeholder="请输入标题" />
+        <a-input
+          v-model="form.title"
+          style="width: 798px"
+          placeholder="请输入标题"
+        />
       </a-form-item>
       <a-form-item field="tags" label="标签">
-        <a-input-tag v-model="form.tags" placeholder="请选择标签" allow-clear />
+        <a-input-tag
+          v-model="form.tags"
+          style="width: 798px"
+          placeholder="请选择标签"
+          allow-clear
+        />
       </a-form-item>
       <a-form-item field="content" label="题目内容">
         <MdEditor :value="form.content" :handle-change="onContentChange" />
@@ -223,7 +232,4 @@ const onAnswerChange = (value: string) => {
 };
 </script>
 
-<style scoped>
-#addQuestionView {
-}
-</style>
+<style scoped></style>

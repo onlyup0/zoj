@@ -2,7 +2,7 @@
   <div
     id="code-editor"
     ref="codeEditorRef"
-    style="min-height: 400px; height: 60vh"
+    style="min-height: 400px; height: 75vh"
   />
   <!--  <a-button @click="fillValue">填充值</a-button>-->
 </template>

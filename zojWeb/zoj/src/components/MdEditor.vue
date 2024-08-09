@@ -1,13 +1,15 @@
 <template>
   <Editor
     :value="value"
-    :mode="mode"
+    :mode="Split"
     :plugins="plugins"
     @change="handleChange"
+    style="width: 800px"
   />
 </template>
 
 <script setup lang="ts">
+import { Split } from "@arco-design/web-vue";
 import gfm from "@bytemd/plugin-gfm";
 import highlight from "@bytemd/plugin-highlight";
 import { Editor, Viewer } from "@bytemd/vue-next";

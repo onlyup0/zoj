@@ -13,7 +13,6 @@
           <a-option>java</a-option>
           <a-option>cpp</a-option>
           <a-option>go</a-option>
-          <a-option>html</a-option>
         </a-select>
       </a-form-item>
       <a-form-item>
@@ -22,6 +21,7 @@
     </a-form>
     <a-divider size="0" />
     <a-table
+      class="custom-table"
       :ref="tableRef"
       :columns="columns"
       :data="dataList"
@@ -34,7 +34,12 @@
       @page-change="onPageChange"
     >
       <template #judgeInfo="{ record }">
-        {{ JSON.stringify(record.judgeInfo) }}
+        判题信息：{{ record.judgeInfo.message }} &nbsp;运行内存：{{
+          record.judgeInfo.memoryLimit
+        }}&nbsp;运行时间：{{ record.judgeInfo.time }}
+      </template>
+      <template #status="{ record }">
+        {{ transformStatus(record.status) }}
       </template>
       <template #createTime="{ record }">
         {{ moment(record.createTime).format("YYYY-MM-DD") }}
@@ -61,10 +66,22 @@ const total = ref(0);
 const searchParams = ref<QuestionSubmitQueryRequest>({
   questionId: undefined,
   language: undefined,
-  pageSize: 10,
+  pageSize: 15,
   current: 1,
 });
-
+const transformStatus = (status: any) => {
+  if (status === 1) {
+    return "运行中";
+  } else if (status === 0) {
+    return "待判题";
+  } else if (status === 2) {
+    return "成功";
+  } else if (status === 3) {
+    return "运行失败";
+  } else if (status === 4) {
+    return "编译失败";
+  }
+};
 const loadData = async () => {
   const res = await QuestionControllerService.listQuestionSubmitByPageUsingPost(
     {
@@ -107,10 +124,11 @@ const columns = [
   {
     title: "判题信息",
     slotName: "judgeInfo",
+    width: 500,
   },
   {
     title: "判题状态",
-    dataIndex: "status",
+    slotName: "status",
   },
   {
     title: "题目 id",
@@ -161,5 +179,10 @@ const doSubmit = () => {
 #questionSubmitView {
   max-width: 1280px;
   margin: 0 auto;
+}
+.custom-table {
+  width: 100%; /* 设置表格宽度 */
+  height: 600px; /* 设置表格高度 */
+  size: large;
 }
 </style>
