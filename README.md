@@ -12,12 +12,14 @@ jdk： 1.8   springboot:2.7
 
 ### 运行截图
 
-![image-20240809215418378](C:\Users\左振宏\AppData\Roaming\Typora\typora-user-images\image-20240809215418378.png)
+https://sky-itzuo.oss-cn-shenzhen.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-08-09%20215351.png
 
-![image-20240809215439133](C:\Users\左振宏\AppData\Roaming\Typora\typora-user-images\image-20240809215439133.png)
+https://sky-itzuo.oss-cn-shenzhen.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-08-09%20215407.png
 
-![image-20240809215453412](C:\Users\左振宏\AppData\Roaming\Typora\typora-user-images\image-20240809215453412.png)
+https://sky-itzuo.oss-cn-shenzhen.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-08-09%20215437.png
 
-![image-20240809215538410](C:\Users\左振宏\AppData\Roaming\Typora\typora-user-images\image-20240809215538410.png)
+https://sky-itzuo.oss-cn-shenzhen.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-08-09%20215451.png
 
-![image-20240809215553319](C:\Users\左振宏\AppData\Roaming\Typora\typora-user-images\image-20240809215553319.png)
+https://sky-itzuo.oss-cn-shenzhen.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-08-09%20215536.png
+
+https://sky-itzuo.oss-cn-shenzhen.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-08-09%20215551.png
