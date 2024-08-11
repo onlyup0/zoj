@@ -12,14 +12,14 @@ jdk： 1.8   springboot:2.7
 
 ### 运行截图
 
-https://sky-itzuo.oss-cn-shenzhen.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-08-09%20215351.png
+![首页](https://sky-itzuo.oss-cn-shenzhen.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-08-09%20215351.png)
 
-https://sky-itzuo.oss-cn-shenzhen.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-08-09%20215407.png
 
-https://sky-itzuo.oss-cn-shenzhen.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-08-09%20215437.png
 
-https://sky-itzuo.oss-cn-shenzhen.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-08-09%20215451.png
+![浏览题目](https://sky-itzuo.oss-cn-shenzhen.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-08-09%20215437.png)
 
-https://sky-itzuo.oss-cn-shenzhen.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-08-09%20215536.png
+![题目提交](https://sky-itzuo.oss-cn-shenzhen.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-08-09%20215451.png)
 
-https://sky-itzuo.oss-cn-shenzhen.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-08-09%20215551.png
+![创建题目](https://sky-itzuo.oss-cn-shenzhen.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-08-09%20215536.png)
+
+![管理题目](https://sky-itzuo.oss-cn-shenzhen.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-08-09%20215551.png)
